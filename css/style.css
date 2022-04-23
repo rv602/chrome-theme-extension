@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+button {
+  background-color: #151D3B;
+  color: azure;
+  border: transparent;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 90%;
+  margin: 1rem;
+  color: rgb(0, 0, 0);
+  min-height: 510px;
+  min-width: 450px;
+  background-color: #151D3B;
+  color: azure;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+#repo {
+    filter: invert(1) hue-rotate(0deg);
+}
+
+#themePicker {
+  text-align: center;
+  font-size: larger;
+  font-weight: 900;
+}
+
+#themeList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  background-color: black;
+  border: 1px solid azure;
+}
+
+#dark, #light {
+  margin-left: 5px;
+}
+
+#darkLabel {
+  background-color: black;
+  color: rgb(166, 246, 8);
+}
+
+input[type='checkbox']:checked {
+  accent-color: purple;
+}
+
+input[type='radio']:checked {
+  accent-color: purple;
+}

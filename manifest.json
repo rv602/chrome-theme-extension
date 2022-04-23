@@ -1,0 +1,28 @@
+{
+  "name": "amFOSS Theme extension",
+  "description": "custom themes for everyone",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/logo16.png",
+    "32": "icons/logo32.png",
+    "48": "icons/logo48.png",
+    "128": "icons/logo128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/colorblindListener.js"
+    ],
+    "persisten": "true"
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "https://*/*/",
+    "http://*/*",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ]
+}

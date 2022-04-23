@@ -1,0 +1,36 @@
+html {
+  top: 0;
+  left: 0;
+  background: white;
+  mix-blend-mode: difference;
+}
+
+img,
+path {
+  filter: invert(1) hue-rotate(0deg);
+}
+
+/* path, img {
+  filter: invert(0) hue-rotate(0deg);
+} */
+
+video {
+  mix-blend-mode: exclusion;
+  filter: invert(1) hue-rotate(0deg);
+}
+
+a img {
+  filter: invert(1) hue-rotate(90deg);
+}
+
+div img {
+  filter: invert(1) hue-rotate(0deg);
+}
+
+div svg {
+  filter: invert(1) hue-rotate(0deg);
+}
+
+svg use {
+  filter: invert(1) hue-rotate(0deg);
+}

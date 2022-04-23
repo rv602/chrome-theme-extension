@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom themes for everyone</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="/icons/logo128.png" alt="">
+        <h3 id="themePicker">Custom themes</h3>
+        <a href="https://github.com/rv602/amFOSS-Theme-Extension" target="_blank"><img src="/img/github.png" alt="" id="repo"></a>
+    </header>
+    <br>
+    <input id="light" name="light" type="checkbox" unchecked>
+    <label for="light" id="lightLabel">Default Theme</label>
+    <input id="dark" name="dark" type="checkbox" unchecked>
+    <label for="dark" id="darkLabel">Theme Inverter (Dark/Light)</label>
+    <form>
+        <br>
+        <div id="themeList">
+            <div id="option-normal">
+                <input id="radio-0" class="radio-custom" name="radio-group" type="radio" checked />
+                <label for="radio-0" class="radio-custom-label">Normal</label>
+            </div>
+            <div id="option-achromatomaly">
+                <input id="radio-1" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-1" class="radio-custom-label">Blue Cone Monochromacy / Achromatomaly</label>
+            </div>
+            <div id="option-achromatopsia">
+                <input id="radio-2" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-2" class="radio-custom-label">Monochromacy / Achromatopsia</label>
+            </div>
+            <div id="option-deuteranomaly">
+                <input id="radio-3" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-3" class="radio-custom-label">Green-Weak / Deuteranomaly</label>
+            </div>
+            <div id="option-deuteranopia">
+                <input id="radio-4" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-4" class="radio-custom-label">Green-Blind / Deuteranopia</label>
+            </div>
+            <div id="option-protanomaly">
+                <input id="radio-5" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-5" class="radio-custom-label">Red-Weak / Protanomaly</label>
+            </div>
+            <div id="option-protanopia">
+                <input id="radio-6" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-6" class="radio-custom-label">Red-Blind / Protanopia</label>
+            </div>
+            <div id="option-tritanomaly">
+                <input id="radio-7" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-7" class="radio-custom-label">Blue-Weak / Tritanomaly</label>
+            </div>
+            <div id="option-tritanopia">
+                <input id="radio-8" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-8" class="radio-custom-label">Blue-Blind / Tritanopia</label>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="/js/colorblindListener.js"></script>
+
+</html>
