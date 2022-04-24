@@ -20,23 +20,19 @@
 <ol>
  <li>Clone this repository on your device</li><br>
  <li>Launch chrome, click on the 3 dots on top right corner and go to more tools - extensions</li>
- <br>
  <img width="866" alt="image" src="https://user-images.githubusercontent.com/92572013/164954649-2dc30715-583f-4e2e-a109-6966f53b330e.png">
- <br>
  
+ <br>
  <li>Then turn on developer mode</li>
- <br>
  <img width="865" alt="image" src="https://user-images.githubusercontent.com/92572013/164954747-54ea69f2-1b88-4276-ab56-cd8c7174f063.png">
- <br>
 
+ <br>
  <li>Click on "load unpoacked" and select the folder of the chrome extension</li>
- <br>
  <img width="865" alt="image" src="https://user-images.githubusercontent.com/92572013/164954819-582a972a-49bf-4b91-a772-328f9179ab78.png">
- <br>
  
+ <br>
  <li>On the chrome tab bar, click on extensions to pin it and then it is ready to use</li>
  <img width="868" alt="image" src="https://user-images.githubusercontent.com/92572013/164954918-4a1f292a-9c5a-473e-957f-94183a79cfef.png">
- <br>
 </ol>
 
 <h1>Simulation images</h1>
@@ -47,5 +43,8 @@
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/92572013/164934336-f490bb01-2749-4d36-9b4f-b5f07800261e.png">
 
 
-
 https://user-images.githubusercontent.com/92572013/164954216-28f2b179-d6d3-4c61-a502-dea157d98471.mov
+
+# Why I couldn't deploy this extension on Chrome Web Store
+<p>For beginning this project, I wanted to go through some tutorials on making the basic chrome extensions. I made a few basic extensions like hello world etc. then since it's structure was based on HTML,CSS and JS, I started using my own knowledge of the same to work further on the extension. But when I wanted to deploy my extension, I realised that my manifest.json file was built on version 2 and not version 3, as the tutorials I watched, the instructors made their extension based on manifest v2. I tried converting my whole code into the manifest v3 but unfortunately landed into many issues while doing the same. i even tried using a converter provided on Chrome's official blog but it didn't work quite well.</p>
+<p></p>
