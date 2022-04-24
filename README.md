@@ -15,6 +15,30 @@
 
 <p>Upon refreshing the page and clicking on the extension, any previously selected color-blind filter before will be applied.</p>
 
+<h1>How to load the extension and use it on your local machine</h1>
+
+<ol>
+ <li>Clone this repository on your device</li><br>
+ <li>Launch chrome, click on the 3 dots on top right corner and go to more tools - extensions</li>
+ <br>
+ <img width="866" alt="image" src="https://user-images.githubusercontent.com/92572013/164954649-2dc30715-583f-4e2e-a109-6966f53b330e.png">
+ <br>
+ 
+ <li>Then turn on developer mode</li>
+ <br>
+ <img width="865" alt="image" src="https://user-images.githubusercontent.com/92572013/164954747-54ea69f2-1b88-4276-ab56-cd8c7174f063.png">
+ <br>
+
+ <li>Click on "load unpoacked" and select the folder of the chrome extension</li>
+ <br>
+ <img width="865" alt="image" src="https://user-images.githubusercontent.com/92572013/164954819-582a972a-49bf-4b91-a772-328f9179ab78.png">
+ <br>
+ 
+ <li>On the chrome tab bar, click on extensions to pin it and then it is ready to use</li>
+ <img width="868" alt="image" src="https://user-images.githubusercontent.com/92572013/164954918-4a1f292a-9c5a-473e-957f-94183a79cfef.png">
+ <br>
+</ol>
+
 <h1>Simulation images</h1>
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/92572013/164933738-6700942d-b100-4371-801a-68dd59db9070.png">
