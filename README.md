@@ -47,4 +47,4 @@ https://user-images.githubusercontent.com/92572013/164954216-28f2b179-d6d3-4c61-
 
 # Why I couldn't deploy this extension on Chrome Web Store
 <p>For beginning this project, I wanted to go through some tutorials on making the basic chrome extensions. I made a few basic extensions like hello world etc. then since it's structure was based on HTML,CSS and JS, I started using my own knowledge of the same to work further on the extension. But when I wanted to deploy my extension, I realised that my manifest.json file was built on version 2 and not version 3, as the tutorials I watched, the instructors made their extension based on manifest v2. I tried converting my whole code into the manifest v3 but unfortunately landed into many issues while doing the same. i even tried using a converter provided on Chrome's official blog but it didn't work quite well.</p>
-<p></p>
+<p>Hence due to the heavy loss of time this was causing me, I decided to skip this step for now</p>
